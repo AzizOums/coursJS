@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>GitHub infos</title>
+    <style>
+    	body {
+            border: 2px solid black;
+            padding: 5px;
+            text-align: center;
+    		margin-left: 20%;
+    		margin-right: 20%;
+    		width: 60%;
+            min-height: 500px
+    	}
+    </style>
+</head>
+
+<body>
+	<h1>Informations sur un profil GitHub</h1>
+
+	<form>
+        <p>
+            <input type="text" name="pseudo" id="pseudo" placeholder="saisir un pseudo GitHub" required>
+            <input type="submit" value="Recherche">
+        </p>
+    </form>
+
+    <div id="contenu">
+        <img src="" id="img" style="max-width: 200; max-height: 200">
+        <p id="name"></p>
+        <a href="" id="blog"></a>
+        <p id="company"></p>
+    </div>
+
+    <div id="error" style="color: red;"></div>
+    
+    <script src="../js/ajax.js"></script>
+    <script src="../js/github.js"></script>
+</body>
+
+</html>

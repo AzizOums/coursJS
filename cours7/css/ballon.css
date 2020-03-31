@@ -1,0 +1,29 @@
+#ballon {
+    position: relative;
+    left: 0px;
+}
+
+#demarrer, #arreter {
+	position: relative;
+	width: 40%;
+	margin-top: 10px;
+}
+
+#demarrer {
+	margin-left: 10%;
+}
+
+#cadre {
+    border: 1px solid black;
+    width: 80%;
+    height: 700px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+body {
+	border: 1px solid red;
+	margin-top: 20px;
+}

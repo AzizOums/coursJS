@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Témoignage</title>
+</head>
+
+<body style="text-align: center; border: 2px solid black; padding: 5px; margin-right: 20%; margin-left: 20%">
+    <h2>Votre Témognage !</h2>
+    <form>
+        <p>
+            <label for="pseudo">Votre pseudo</label> :
+            <input type="text" name="pseudo" id="pseudo" placeholder="pseudo" required>
+        </p>
+        <p style="text-align: left; margin-left: 40%">
+            <input type="radio" name="temoignage" id="nul" value="1">
+            <label for="nul">Nul</label>
+            <br>
+            <input type="radio" name="temoignage" id="bof" value="2">
+            <label for="bof">Bof</label>
+            <br>
+            <input type="radio" name="temoignage" id="pasMal" value="3">
+            <label for="pasMal">Pas mal</label>
+            <br>
+            <input type="radio" name="temoignage" id="tresBien" value="4">
+            <label for="tresBien">Très bien</label>
+            <br>
+            <input type="radio" name="temoignage" id="genial" value="5" checked>
+            <label for="genial">Génial !</label>
+            <br>
+        </p>
+        <p>
+            <label for="message">Ajouter un message</label> : </br>
+            <textarea name="message" id="message" style="max-width: 40%;" rows="10" cols="25" placeholder="Votre message ... "></textarea>
+        </p>
+
+        <button type="submit">
+            <p> Envoyer </p>
+        </button>
+    </form>
+
+    <p id="reponse"></p>
+
+    <script src="../js/ajax.js"></script>
+    <script src="../js/temoignage.js"></script>
+</body>
+
+</html>
